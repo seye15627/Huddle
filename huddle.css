@@ -8,7 +8,7 @@ body {
 				line-height: 40x;
 				letter-spacing: 2px;
 				background-color: hsl(257, 40%, 49%);
-				background-image: url("../stylesheet/images/bg-desktop.svg");
+				background-image: url("bg-desktop.svg");
 				background-position: 20px 10px;
 				background-repeat:no-repeat;
 
@@ -20,7 +20,7 @@ body {
 }*/
 
 /*.bground {
-				background: url("../stylesheet/images/bg-desktop.svg") 20px no-repeat;		
+				background: url("bg-desktop.svg") 20px no-repeat;		
 				width: 100%;		
 }*/
 .header-cont {
@@ -110,7 +110,7 @@ p {
 				       margin: 200px 0;
        }
        .bground {
-				background: url("../stylesheet/images/bg-desktop.svg") 20px no-repeat;		
+				background: url("bg-desktop.svg") 20px no-repeat;		
 				width: 100%;		
        }
        .header-cont, .section-cont {
