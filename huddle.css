@@ -1,0 +1,167 @@
+
+body {
+      
+       box-sizing: border;
+				font: 400 18px/22px "Open Sans","Helvetica Neue";
+				background: black;
+				color: white;
+				line-height: 40x;
+				letter-spacing: 2px;
+				background-color: hsl(257, 40%, 49%);
+				background-image: url("../stylesheet/images/bg-desktop.svg");
+				background-position: 20px 10px;
+				background-repeat:no-repeat;
+
+}
+
+/*.cent {
+				background: hsl(257, 40%, 49%);
+				width: 100%;
+}*/
+
+/*.bground {
+				background: url("../stylesheet/images/bg-desktop.svg") 20px no-repeat;		
+				width: 100%;		
+}*/
+.header-cont {
+					
+				margin: 0 30px 45px 30px;	
+}
+.section-cont {
+				margin: 45px 30px;
+}
+
+/*header {
+				display: flex;
+				justify-content: flex-start;
+				width: 500px;
+				padding: 20px 30px;			
+}*/
+
+/*.container {
+		width: 850px;		
+		padding: 20px 15px;
+}*/
+
+header img {
+				width: 40%;		
+}
+article img {
+				width: 250px;
+				
+}
+
+/*article {
+				width: 100%;
+				margin: 0 30px;
+}*/
+aside {
+       text-align: center;
+}
+
+
+
+h2 {
+				line-height: 38px;
+				font-size: 18px;
+			
+}
+
+button {
+				border: 1px solid black;
+				border-radius: 14px;
+				padding: 10px 44px;
+}
+button:hover {
+				background: hsl(300, 69%, 71%);
+				color: white;
+}
+p {
+				font-size: 11px;
+				
+}
+.section-icon {
+                     display: flex;
+                     justify-content: center;
+				             
+        }
+.icon {
+				width: 100px;
+				display: flex;
+				justify-content: space-around;
+}
+/*.line {
+				border: 2px solid red;
+}*/
+@media screen and (min-width:375px) and (max-width: 1440px) {
+
+       body {
+      
+       box-sizing: border;
+				font: 400 18px/22px "Open Sans","Helvetica Neue";
+				background: black;
+				color: white;
+				line-height: 44x;
+				letter-spacing: 2px;
+				height: 50px;
+       }
+       .cent {
+				       background: hsl(257, 40%, 49%);
+				       margin: 200px 0;
+       }
+       .bground {
+				background: url("../stylesheet/images/bg-desktop.svg") 20px no-repeat;		
+				width: 100%;		
+       }
+       .header-cont, .section-cont {
+			        	padding: 22px 30px;			
+       }
+       .header-cont {
+					
+				        margin: 0 0;	
+       }
+       .section-cont {
+				        margin: 0 0;
+       }
+       header {
+				        display: flex;
+				        justify-content: flex-start;
+				        width: 850px;
+				        padding: 20px 0;
+       }
+       header img {
+				        width: 30%;
+				}
+       .container {
+		                display: flex;
+		                justify-content: space-between;
+		                flex-wrap: nowrap;
+		                width: 850px;
+		    }
+		    .section-icon {
+                     display: flex;
+                     justify-content: flex-end;
+				              width: 850px;
+        }
+				article img {
+				             width: 100%;
+       }
+
+       article {
+				         margin-right: 15px;
+				         width: 425px;
+       }
+       aside {
+                margin-left: 15px;
+				         width: 425px;
+				         text-align: left;
+       }
+       p {
+				font-size: 11px;
+       }
+       h2 {
+				line-height: 38px;
+				font-size: 18px;
+       }
+
+}
