@@ -48,7 +48,7 @@ Links:
 
 Solution URL: Add solution URL here
 
-Live Site URL: https://seye15627.github.io/NFT-preview-card/
+Live Site URL: https://seye15627.github.io/Huddle/
 
 
 My process
